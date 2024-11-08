@@ -1,0 +1,84 @@
+{
+	"Programa simple,usescrt": {
+		"prefix": "program",
+		"body": [
+			"";
+			"Program $1;",
+			"";
+			"uses crt;",
+			"",
+			"begin",
+			"  procmenu;",
+			"end."
+		],
+		"description": "programa simple"
+	},
+	"write and read": {
+		"prefix": "wrire",
+		"body": [
+			"write('$1');",
+			"readLn($2);"
+		],
+		"description": "escribir y leer"
+	},
+	"unit inicialize": {
+		"prefix": "inicialize",
+		"body": [
+			"Unit $1;",
+			"",
+			"Interface",
+			"",
+			"Uses crt,$2;""Procedure V_initialize(Var vector:$3);""",
+			"Implementation""Procedure V_initialize(Var vector:$3);""Var",
+			"  i: Integer;",
+			"Begin",
+			"  For i:=1 To $4 Do",
+			"    vector[i] := 0;",
+			"End;",
+			"End."
+		]
+	},
+	"procedure menu": {
+		"prefix": "procmenu",
+		"body": [
+			"Procedure procmenu();",
+			"Var",
+			"  option: Integer;",
+			"",
+			"Begin",
+			"  Repeat",
+			"    ClrScr;",
+			"    WriteLn('Ingrese una opcion');",
+			"    WriteLn('1:');",
+			"    WriteLn('2:');",
+			"    WriteLn('3: Salir');",
+			"    readLn(option);",
+			"    ClrScr;",
+			"    Case option Of",
+			"      1: ;",
+			"      2: ;",
+			"      3: //end",
+			"    End;",
+			"  Until option=3;",
+			"End;"
+		]
+	},
+	"unit": {
+		"prefix": "un",
+		"body": [
+			"",
+			"Unit $1;",
+			"",
+			"Interface",
+			"",
+			"Uses crt;",
+			"",
+			"",
+			"Implementation",
+			"{-------------------------------------------------------------------------}",
+			"",
+			"",
+			"End."
+		]
+	}
+}

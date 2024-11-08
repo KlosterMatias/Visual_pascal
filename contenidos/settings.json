@@ -1,0 +1,45 @@
+{
+  "files.exclude": {
+    "**/*.bak": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.ppu": true,
+    "**/out":true
+ },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.formatOnPaste": true,
+  "code-runner.runInTerminal": true,
+  "workbench.colorTheme": "Palenight Theme",
+  "pascal.formatter.engine": "ptop",
+      "settingsSync.ignoredSettings": [
+        "pascal.formatter.enginePath"
+    ],
+  "pascal.format.wrapLineLength": 500,
+  "workbench.sideBar.location": "right",
+  "debug.allowBreakpointsEverywhere": true,
+  "omnipascal.delphiInstallationPath": "C:/FPC/3.2.2/bin/i386-win32/fpc.exe",
+  "omnipascal.freePascalSourcePath": "C:/fpc-3.2.2",
+  "omnipascal.defaultDevelopmentEnvironment": "FreePascal",
+  "editor.formatOnSave": true,
+  "pascal.formatter.enginePath": "C:/FPC/3.2.2/bin/i386-win32/ptop.exe",
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "gitlens.views.contributors.showStatistics": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command"
+  ],
+  "[objectpascal]": {
+        "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "alefragnani.pascal-formatter",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.goToImplementation",
+  },
+}
