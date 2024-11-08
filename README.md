@@ -16,4 +16,4 @@
 
 # Extra
   paso tambien las configuraciones de las extensiones, suelen tener las direccion de forma generica
-  y la carpeta .vscode tiene que estar adentro del workspace principal
+  y la carpeta .vscode (necesita tener el punto en el nombre) tiene que estar adentro del workspace principal
