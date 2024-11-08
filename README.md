@@ -1,7 +1,8 @@
 # Visual_pascal
   archivos que uso para poder ejecutar free pascal en visual studio code
   funciona a un nivel basico de uso especial para inicio en universidades
-
+  es exclusivo para windows
+  
 # Necesario tener git instalado
 
 # extensiones necesarias
